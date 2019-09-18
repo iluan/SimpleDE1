@@ -1,0 +1,124 @@
+Quartus Prime Archive log --	/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/SIMPLE_tmp_archive.qarlog
+
+Archive:	/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/SIMPLE_tmp_archive.qar
+Date:		Sat Jun 10 14:09:59 2017
+Quartus Prime		16.0.0 Build 211 04/27/2016 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/COMPARE.vhd
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/CcrM.vhd
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/CtrA.vhd
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/DE1_SOC_golden_top.sdc
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/DnaA.vhd
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/FSM_SLOW.vhd
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/GcrA.vhd
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/Node.vhd
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/Overwrap.vhd
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/SIMPLE.qpf
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/SIMPLE.qsf
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/SIMPLE.vhd
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/SIMPLE_assignment_defaults.qdf
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/Scip.vhd
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/TEST.vhd
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/WRAP0.vhd
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/Wrap0WF.vwf
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/counter.vhd
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/div.vhd
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/myLogic-WF.vwf
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc.qsys
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc.sopcinfo
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/simple_soc.cmp
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/simple_soc.debuginfo
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/simple_soc.qip
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/simple_soc.regmap
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/simple_soc.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/simple_soc_hps_0_hps.svd
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altdq_dqs2_acv_connect_to_hard_phy_cyclonev.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_avalon_st_pipeline_base.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_avalon_st_pipeline_stage.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_default_burst_converter.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_incr_burst_converter.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_mem_if_dll_cyclonev.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_mem_if_hard_memory_controller_top_cyclonev.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_mem_if_hhp_qseq_synth_top.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_mem_if_oct_cyclonev.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_merlin_address_alignment.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_merlin_axi_master_ni.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_merlin_burst_adapter.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_merlin_burst_adapter_new.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_merlin_reorder_memory.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_merlin_traffic_limiter.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_reset_controller.sdc
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_reset_controller.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_reset_synchronizer.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/altera_wrap_burst_converter.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps.pre.xml
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_AC_ROM.hex
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_inst_ROM.hex
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0.ppf
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0.sdc
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_acv_hard_addr_cmd_pads.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_acv_hard_io_pads.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_acv_hard_memphy.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_acv_ldc.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_altdqdqs.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_clock_pair_generator.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_generic_ddio.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_iss_probe.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_parameters.tcl
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_phy_csr.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_pin_assignments.tcl
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_pin_map.tcl
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_report_timing.tcl
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_report_timing_core.tcl
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_reset.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_reset_sync.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_p0_timing.tcl
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/hps_sdram_pll.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/sequencer/alt_types.pre.h
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/sequencer/emif.pre.xml
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/sequencer/sdram_io.pre.h
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/sequencer/sequencer.pre.c
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/sequencer/sequencer.pre.h
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/sequencer/sequencer_auto.pre.h
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/sequencer/sequencer_auto_ac_init.pre.c
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/sequencer/sequencer_auto_inst_init.pre.c
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/sequencer/sequencer_defines.pre.h
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/sequencer/system.pre.h
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/sequencer/tclrpt.pre.c
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/sequencer/tclrpt.pre.h
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_counter.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_hps_0.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_hps_0_fpga_interfaces.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_hps_0_hps_io.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_hps_0_hps_io_border.sdc
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_hps_0_hps_io_border.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_init.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_mm_interconnect_0.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_mm_interconnect_0_avalon_st_adapter.v
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_mm_interconnect_0_cmd_demux.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_mm_interconnect_0_cmd_mux.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_mm_interconnect_0_router.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_mm_interconnect_0_router_002.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_mm_interconnect_0_rsp_demux.sv
+/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/simple_soc/synthesis/submodules/simple_soc_mm_interconnect_0_rsp_mux.sv
+	======= Total: 107 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sat Jun 10 14:10:07 2017
+Source archive file:	/home/cahm/Documents/FPGA_PROJECTS/DE1/SIMPLE/SIMPLE_tmp_archive.qar
+Archive was extracted into	/home/cahm/Documents/FPGA_PROJECTS/DE1/DESIGNS_W_CLK25-constraint/CAULO-25/
+		 - successfully.
