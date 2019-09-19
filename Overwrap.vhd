@@ -49,6 +49,10 @@ HPS_USB_STP: OUT STD_LOGIC
 END overwrap;
 
 ARCHITECTURE MAIN OF Overwrap IS
+--El Componente WRAP0 es nuestro componente personalizado.
+--Si se quiere añadir más puertos, como por ejemplo una señal de reloj, hay que modificar esta instancia del componente.
+--Lo mismo aplica para cambiar el ancho o el tipo de los puertos.
+--Asimismo, hay que hacer las modificaciones correspondientes en archivo WRAP0.vhd
 component WRAP0 is
 	port ( 
 	fromHPS: in std_logic_vector(15 downto 0);
@@ -56,6 +60,11 @@ component WRAP0 is
 	);
 end component;
 
+--El componente simple_soc es automáticamente generado por Qsys.
+--La instancia presentada a continuación fue generada en el mismo programa.
+--Los puertos los genera en orden alfabético.
+--Si usted ha cambiado el nombre de algún puerto en Qsys, asegurese de reemplazar esta instancia.
+--Alternativamente, simplemente borre los puertos "fromfpga_export" y "tofpga_export" y añada los puertos con los nuevos nombres cuidando que estén en el orden correcto.
 component simple_soc is
         port (
             clk_clk                         : in    std_logic                     := 'X';             -- clk
@@ -116,17 +125,22 @@ component simple_soc is
         );
     end component simple_soc;
 
-	 SIGNAL HPS_H2F_RST:STD_LOGIC;
+SIGNAL HPS_H2F_RST:STD_LOGIC;
 SIGNAL F2H:STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL H2F:STD_LOGIC_VECTOR(15 DOWNTO 0);
---inserta aquí las señales que conectan a tu componente
+--Inserte aquí las señales que conectan a su componente.
 BEGIN
+--La siguiente instancia de WRAP 0 es un ejemplo.
+--Haga los cambios necesarios para que coincida con los puertos de su archivo WRAP0.vhd
 u1: component WRAP0
 	port map(
 	fromHPS =>H2F,
 	toHPS=> F2H
 	);
 
+--El siguiente mapa de puertos para el componente simple_soc.
+--Recuerde que el archivo simple_soc.vhd es generado automáticamente por Qsys.
+--Si no ha modificado los nombres, tipos, longitudes y/o direccionalidades de los puertos, no requiere modificación.
 u0 : component simple_soc
         port map (
             clk_clk                         => CLOCK_50,                         --             clk.clk
@@ -166,10 +180,8 @@ u0 : component simple_soc
             hps_io_hps_io_usb1_inst_NXT     => HPS_USB_NXT,     --                        .hps_io_usb1_inst_NXT
             hps_io_hps_io_uart0_inst_RX     => HPS_UART_RX,     --                        .hps_io_uart0_inst_RX
             hps_io_hps_io_uart0_inst_TX     => HPS_UART_TX,      --                        .hps_io_uart0_inst_TX
-            
-				tofpga_export                   => H2F,                   --          tofpga.export
-            
-				memory_mem_a                    => HPS_DDR3_ADDR,                    --                  memory.mem_a
+            tofpga_export                   => H2F,                   --          tofpga.export
+            memory_mem_a                    => HPS_DDR3_ADDR,                    --                  memory.mem_a
             memory_mem_ba                   => HPS_DDR3_BA,                   --                        .mem_ba
             memory_mem_ck                   => HPS_DDR3_CK_P,                   --                        .mem_ck
             memory_mem_ck_n                 => HPS_DDR3_CK_N,                 --                        .mem_ck_n
